@@ -1,0 +1,58 @@
+name: MMEmoji
+main: com.minemee.MMEmoji.MMEmoji
+version: 1.0
+description: >
+             Line art for Minecraft chat.
+commands:
+  mmemoji tableflip:
+    description: Do a table flip!
+  mmemoji table:
+    description: Do a table flip!
+  mmemoji dtable:
+    description: Do a double table flip!
+  mmemoji finger:
+    description: The finger!
+  mmemoji shrug:
+    description: Shrugs.
+  mmemoji wtf:
+    description: Wtf face.
+  mmemoji why:
+    description: y u do dis ?
+  mmemoji cool:
+    description: Looks like...
+  mmemoji cry:
+    description: Crying face.
+  mmemoji sad:
+    description: Sad face.
+  mmemoji dead:
+    description: Dead face.
+  mmemoji dance:
+    description: Party hard!
+  mmemoji gimme:
+    description: Gimme, gimme!
+  mmemoji bighit:
+    description: HIT
+  mmemoji visualizer:
+    description: A visualizer!
+  mmemoji vis:
+    description: A visualizer!
+  mmemoji spam:
+    description: Spam the player! <Warning> Do not over use!
+  mmemoji bunny:
+    description: Makes a bunny in chat!
+  mmemoji fixtable:
+    description: Put the table back.
+  mmemoji throw:
+    description: Get out!
+  mmemoji erika:
+    description: Wut...
+  mmemoji donger:
+    description: DONGER!
+  mmemoji wannago:
+    description: You wanna go?
+  mmemoji snip:
+    description: Snip Snip!
+  mmemoji lilgimme:
+    description: A little gimme!
+  mmemoji kirk:
+    description: :D
