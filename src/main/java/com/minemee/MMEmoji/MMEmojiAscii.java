@@ -6,7 +6,10 @@ import org.bukkit.entity.Player;
 
 public class MMEmojiAscii{
 	public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args){
-		Player player = (Player) sender;  
+		if (sender instanceof Player) 
+		{
+	           Player player = (Player) sender;
+	        
 		if(commandLabel.equalsIgnoreCase("spam")){
 			if(args.length == 0){
 				player.sendMessage("████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████");
@@ -115,10 +118,11 @@ public class MMEmojiAscii{
 			player.chat("(◐ω◑ )");
 			return true;
 		}
-		else{
-			if (!(sender instanceof Player)) {
-				sender.sendMessage("This command can only be used by a player.");
-			}
+		}
+		else
+		{
+			sender.sendMessage("Only players can use this command.");
+			return false;
 		}
 		return false;
 	}
