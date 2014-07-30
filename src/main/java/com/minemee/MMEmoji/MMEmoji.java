@@ -7,9 +7,9 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class MMEmoji extends JavaPlugin {
 
 	Logger log = Logger.getLogger("Minecraft");
-
-	public final MMEmojiAscii mmEmojiAscii = new MMEmojiAscii();
-
+	
+	public final MMEmojiAscii MMEA = new MMEmojiAscii();
+	
 	public void onEnable(){
 		log.info("MMEmoji enabled!");
 	}
@@ -17,5 +17,5 @@ public class MMEmoji extends JavaPlugin {
 	public void onDisable(){
 		log.info("MMEmoji disabled.");
 	}
-
+	
 }

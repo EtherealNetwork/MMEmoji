@@ -4,55 +4,55 @@ version: 1.0
 description: >
              Line art for Minecraft chat.
 commands:
-  mmemoji tableflip:
+  tableflip:
     description: Do a table flip!
-  mmemoji table:
+  table:
     description: Do a table flip!
-  mmemoji dtable:
+  dtable:
     description: Do a double table flip!
-  mmemoji finger:
+  finger:
     description: The finger!
-  mmemoji shrug:
+  shrug:
     description: Shrugs.
-  mmemoji wtf:
+  wtf:
     description: Wtf face.
-  mmemoji why:
+  why:
     description: y u do dis ?
-  mmemoji cool:
+  cool:
     description: Looks like...
-  mmemoji cry:
+  cry:
     description: Crying face.
-  mmemoji sad:
+  sad:
     description: Sad face.
-  mmemoji dead:
+  dead:
     description: Dead face.
-  mmemoji dance:
+  dance:
     description: Party hard!
-  mmemoji gimme:
+  gimme:
     description: Gimme, gimme!
-  mmemoji bighit:
+  bighit:
     description: HIT
-  mmemoji visualizer:
+  visualizer:
     description: A visualizer!
-  mmemoji vis:
+  vis:
     description: A visualizer!
-  mmemoji spam:
+  spam:
     description: Spam the player! <Warning> Do not over use!
-  mmemoji bunny:
+  bunny:
     description: Makes a bunny in chat!
-  mmemoji fixtable:
+  fixtable:
     description: Put the table back.
-  mmemoji throw:
+  throw:
     description: Get out!
-  mmemoji erika:
+  erika:
     description: Wut...
-  mmemoji donger:
+  donger:
     description: DONGER!
-  mmemoji wannago:
+  wannago:
     description: You wanna go?
-  mmemoji snip:
+  snip:
     description: Snip Snip!
-  mmemoji lilgimme:
+  lilgimme:
     description: A little gimme!
-  mmemoji kirk:
+  kirk:
     description: :D

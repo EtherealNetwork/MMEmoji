@@ -4,10 +4,10 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-public class MMEmojiAscii {
+public class MMEmojiAscii{
 	public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args){
 		Player player = (Player) sender;  
-		if(commandLabel.equalsIgnoreCase("mmemoji spam")){
+		if(commandLabel.equalsIgnoreCase("spam")){
 			if(args.length == 0){
 				player.sendMessage("████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████");
 			}
@@ -19,105 +19,105 @@ public class MMEmojiAscii {
 			  }
 			}
 		}
-		if(commandLabel.equalsIgnoreCase("mmemoji tableflip") || commandLabel.equalsIgnoreCase("mmemoji table")){
+		if(commandLabel.equalsIgnoreCase("tableflip") || commandLabel.equalsIgnoreCase("table")){
 		   player.chat("(╯°□°）╯︵ ┻━┻");
 		   return true;
 		}
-		if(commandLabel.equalsIgnoreCase("mmemoji dtable")){
+		if(commandLabel.equalsIgnoreCase("dtable")){
 		   player.chat("┻━┻ ︵ヽ(`Д´)ﾉ︵﻿ ┻━┻");
 		   return true;
 		}
-		if(commandLabel.equalsIgnoreCase("mmemoji finger")){
+		if(commandLabel.equalsIgnoreCase("finger")){
 		   player.chat("┌∩┐(◣_◢)┌∩┐");
 		   return true;
 		}
-		if(commandLabel.equalsIgnoreCase("mmemoji shrug")){
+		if(commandLabel.equalsIgnoreCase("shrug")){
 		   player.chat("¯\\_(ツ)_/¯");
 		   return true;
 		}
-		if(commandLabel.equalsIgnoreCase("mmemoji wtf")){
+		if(commandLabel.equalsIgnoreCase("wtf")){
 		   player.chat("(ಠ_ಠ)");
 		   return true;
 		}
-		if(commandLabel.equalsIgnoreCase("mmemoji why")){
+		if(commandLabel.equalsIgnoreCase("why")){
 		   player.chat("ლ(ಠ益ಠლ)");
 		   return true;
 		}
-		if(commandLabel.equalsIgnoreCase("mmemoji cool")){
+		if(commandLabel.equalsIgnoreCase("cool")){
 		   player.chat("( •_•)");
 		   player.chat("( •_•)>⌐■-■");
 		   player.chat("(⌐■_■)");
 		   return true;
 		}
-		if(commandLabel.equalsIgnoreCase("mmemoji cry")){
+		if(commandLabel.equalsIgnoreCase("cry")){
 		   player.chat("(╥﹏╥)");
 		   return true;
 		}
-		if(commandLabel.equalsIgnoreCase("mmemoji sad")){
+		if(commandLabel.equalsIgnoreCase("sad")){
 		   player.chat("(╯︵╰,)");
 		   return true;
 		}
-		if(commandLabel.equalsIgnoreCase("mmemoji dead")){
+		if(commandLabel.equalsIgnoreCase("dead")){
 		   player.chat("(✖╭╮✖)");
 		   return true;
 		}
-		if(commandLabel.equalsIgnoreCase("mmemoji dance")){
+		if(commandLabel.equalsIgnoreCase("dance")){
 		   player.chat("♪┏(°.°)┛┗(°.°)┓┗(°.°)┛┏(°.°)┓ ♪");
 		   return true;
 		} 
-		if(commandLabel.equalsIgnoreCase("mmemoji gimme")){
+		if(commandLabel.equalsIgnoreCase("gimme")){
 		   player.chat("༼ つ ◕_◕ ༽つ");
 		   return true;
 		}
-		if(commandLabel.equalsIgnoreCase("mmemoji bighit")){
+		if(commandLabel.equalsIgnoreCase("bighit")){
 		   player.chat("█▬█ █ ▀█▀");
 		   return true;
 		}  
-		if(commandLabel.equalsIgnoreCase("mmemoji visualizer") || commandLabel.equalsIgnoreCase("mmemoji vis")){
+		if(commandLabel.equalsIgnoreCase("visualizer") || commandLabel.equalsIgnoreCase("vis")){
 		   player.chat("▇ ▅ █ ▅ ▇ ▂ ▃ ▁ ▁ ▅ ▃ ▅ ▅ ▄ ▅ ▇");
 		   return true;
 		}
-		if(commandLabel.equalsIgnoreCase("mmemoji bunny")){
+		if(commandLabel.equalsIgnoreCase("bunny")){
 		   player.chat("(\\_/)");
 		   player.chat(" (^.^)");
 		   player.chat("O(\")(\")");
 		   return true;
 		}
-		if(commandLabel.equalsIgnoreCase("mmemoji fixtable")){
+		if(commandLabel.equalsIgnoreCase("fixtable")){
 		   player.chat("┬──┬ﾉ(° -°ﾉ)");
 		   return true;
 		}
-		if(commandLabel.equalsIgnoreCase("mmemoji throw")){
+		if(commandLabel.equalsIgnoreCase("throw")){
 		   player.chat("(ノಠ ∩ಠ)ノ彡( \\o°o)\\");
 		   return true;
 		}
-		if(commandLabel.equalsIgnoreCase("mmemoji erika")){
+		if(commandLabel.equalsIgnoreCase("erika")){
 		   player.chat("༼☉ɷ⊙༽");
 		   return true;
 		}
-		if(commandLabel.equalsIgnoreCase("mmemoji donger")){
+		if(commandLabel.equalsIgnoreCase("donger")){
 		   player.chat("ヽ༼ຈل͜ຈ༽ﾉ");
 		   return true;
 		}
-		if(commandLabel.equalsIgnoreCase("mmemoji wannago")){
+		if(commandLabel.equalsIgnoreCase("wannago")){
 		   player.chat("(ง •̀_•́)ง");
 		   return true;
 		}
-		if(commandLabel.equalsIgnoreCase("mmemoji snip")){
+		if(commandLabel.equalsIgnoreCase("snip")){
 		   player.chat("( ＾◡＾)っ✂╰⋃╯");
 		   return true;
 		}
-		if(commandLabel.equalsIgnoreCase("mmemoji lilgimme")){
+		if(commandLabel.equalsIgnoreCase("lilgimme")){
 		   player.chat("(づ｡◕‿‿◕｡)づ");
 		   return true;
 		}
-		if(commandLabel.equalsIgnoreCase("mmemoji kirk")){
+		if(commandLabel.equalsIgnoreCase("kirk")){
 			player.chat("(◐ω◑ )");
 			return true;
 		}
 		else{
 			if (!(sender instanceof Player)) {
-				sender.sendMessage("This command can only be run by a player.");
+				sender.sendMessage("This command can only be used by a player.");
 			}
 		}
 		return false;
