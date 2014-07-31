@@ -140,52 +140,52 @@ permissions:
       MMEmoji.kirk: false
   MMEmoji.tableflip:
     description: Do a table flip!
-    default: op
+    default: true
   MMEmoji.table:
     description: Do a table flip!
-    default: op
+    default: true
   MMEmoji.dtable:
     description: Do a double table flip!
-    default: op
+    default: true
   MMEmoji.finger:
     description: The finger!
-    default: op
+    default: true
   MMEmoji.shrug:
     description: Shrugs.
-    default: op
+    default: true
   MMEmoji.wtf:
     description: Wtf face.
-    default: op
+    default: true
   MMEmoji.why:
     description: y u do dis ?
-    default: op
+    default: true
   MMEmoji.cool:
     description: Looks like...
-    default: op
+    default: true
   MMEmoji.cry:
     description: Crying face.
-    default: op
+    default: true
   MMEmoji.sad:
     description: Sad face.
-    default: op
+    default: true
   MMEmoji.dead:
     description: Dead face.
-    default: op
+    default: true
   MMEmoji.dance:
     description: Party hard!
-    default: op
+    default: true
   MMEmoji.gimme:
     description: Gimme, gimme!
-    default: op
+    default: true
   MMEmoji.bighit:
     description: HIT
-    default: op
+    default: true
   MMEmoji.visualizer:
     description: A visualizer!
-    default: op
+    default: true
   MMEmoji.vis:
     description: A visualizer!
-    default: op
+    default: true
   MMEmoji.spam:
     description: Spam the player! <Warning> Do not over use!
     default: op
@@ -194,25 +194,25 @@ permissions:
     default: op
   MMEmoji.fixtable:
     description: Put the table back.
-    default: op
+    default: true
   MMEmoji.throw:
     description: Get out!
-    default: op
+    default: true
   MMEmoji.erika:
     description: Wut...
     default: op
   MMEmoji.donger:
     description: DONGER!
-    default: op
+    default: true
   MMEmoji.wannago:
     description: You wanna go?
-    default: op
+    default: true
   MMEmoji.snip:
     description: Snip Snip!
-    default: op
+    default: true
   MMEmoji.lilgimme:
     description: A little gimme!
-    default: op
+    default: true
   MMEmoji.kirk:
     description: :D
     default: op
