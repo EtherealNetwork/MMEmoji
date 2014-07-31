@@ -6,53 +6,213 @@ description: >
 commands:
   tableflip:
     description: Do a table flip!
+    permission: MMEmoji.tableflip
+    permission-message: You don't have permission to use that.
   table:
     description: Do a table flip!
+    permission: MMEmoji.table
+    permission-message: You don't have permission to use that.
   dtable:
     description: Do a double table flip!
+    permission: MMEmoji.dtable
+    permission-message: You don't have permission to use that.
   finger:
     description: The finger!
+    permission: MMEmoji.finger
+    permission-message: You don't have permission to use that.
   shrug:
     description: Shrugs.
+    permission: MMEmoji.shrug
+    permission-message: You don't have permission to use that.
   wtf:
     description: Wtf face.
+    permission: MMEmoji.wtf
+    permission-message: You don't have permission to use that.
   why:
     description: y u do dis ?
+    permission: MMEmoji.why
+    permission-message: You don't have permission to use that.
   cool:
     description: Looks like...
+    permission: MMEmoji.cool
+    permission-message: You don't have permission to use that.
   cry:
     description: Crying face.
+    permission: MMEmoji.cry
+    permission-message: You don't have permission to use that.
   sad:
     description: Sad face.
+    permission: MMEmoji.sad
+    permission-message: You don't have permission to use that.
   dead:
     description: Dead face.
+    permission: MMEmoji.dead
+    permission-message: You don't have permission to use that.
   dance:
     description: Party hard!
+    permission: MMEmoji.dance
+    permission-message: You don't have permission to use that.
   gimme:
     description: Gimme, gimme!
+    permission: MMEmoji.gimme
+    permission-message: You don't have permission to use that.
   bighit:
     description: HIT
+    permission: MMEmoji.bighit
+    permission-message: You don't have permission to use that.
   visualizer:
     description: A visualizer!
+    permission: MMEmoji.visualizer
+    permission-message: You don't have permission to use that.
   vis:
     description: A visualizer!
+    permission: MMEmoji.vis
+    permission-message: You don't have permission to use that.
   spam:
     description: Spam the player! <Warning> Do not over use!
+    permission: MMEmoji.spam
+    permission-message: You don't have permission to use that.
   bunny:
     description: Makes a bunny in chat!
+    permission: MMEmoji.bunny
+    permission-message: You don't have permission to use that.
   fixtable:
     description: Put the table back.
+    permission: MMEmoji.fixtable
+    permission-message: You don't have permission to use that.
   throw:
     description: Get out!
+    permission: MMEmoji.throw
+    permission-message: You don't have permission to use that.
   erika:
     description: Wut...
+    permission: MMEmoji.erika
+    permission-message: You don't have permission to use that.
   donger:
     description: DONGER!
+    permission: MMEmoji.donger
+    permission-message: You don't have permission to use that.
   wannago:
     description: You wanna go?
+    permission: MMEmoji.wannago
+    permission-message: You don't have permission to use that.
   snip:
     description: Snip Snip!
+    permission: MMEmoji.snip
+    permission-message: You don't have permission to use that.
   lilgimme:
     description: A little gimme!
+    permission: MMEmoji.lilgimme
+    permission-message: You don't have permission to use that.
   kirk:
     description: :D
+    permission: MMEmoji.kirk
+    permission-message: You don't have permission to use that.
+permissions:
+  MMEmoji.*:
+    description: Give access to all Emojies except personal and spam.
+    children:
+      MMEmoji.tableflip: true
+      MMEmoji.table: true
+      MMEmoji.dtable: true
+      MMEmoji.finger: true
+      MMEmoji.shrug: true
+      MMEmoji.wtf: true
+      MMEmoji.why: true
+      MMEmoji.cool: true
+      MMEmoji.cry: true
+      MMEmoji.sad: true
+      MMEmoji.dead: true
+      MMEmoji.dance: true
+      MMEmoji.gimme: true
+      MMEmoji.bighit: true
+      MMEmoji.visualizer: true
+      MMEmoji.vis: true
+      MMEmoji.spam: false
+      MMEmoji.bunny: false
+      MMEmoji.fixtable: true
+      MMEmoji.throw: true
+      MMEmoji.erika: false
+      MMEmoji.donger: true
+      MMEmoji.wannago: true
+      MMEmoji.snip: true
+      MMEmoji.lilgimme: true
+      MMEmoji.kirk: false
+  MMEmoji.tableflip:
+    description: Do a table flip!
+    default: op
+  MMEmoji.table:
+    description: Do a table flip!
+    default: op
+  MMEmoji.dtable:
+    description: Do a double table flip!
+    default: op
+  MMEmoji.finger:
+    description: The finger!
+    default: op
+  MMEmoji.shrug:
+    description: Shrugs.
+    default: op
+  MMEmoji.wtf:
+    description: Wtf face.
+    default: op
+  MMEmoji.why:
+    description: y u do dis ?
+    default: op
+  MMEmoji.cool:
+    description: Looks like...
+    default: op
+  MMEmoji.cry:
+    description: Crying face.
+    default: op
+  MMEmoji.sad:
+    description: Sad face.
+    default: op
+  MMEmoji.dead:
+    description: Dead face.
+    default: op
+  MMEmoji.dance:
+    description: Party hard!
+    default: op
+  MMEmoji.gimme:
+    description: Gimme, gimme!
+    default: op
+  MMEmoji.bighit:
+    description: HIT
+    default: op
+  MMEmoji.visualizer:
+    description: A visualizer!
+    default: op
+  MMEmoji.vis:
+    description: A visualizer!
+    default: op
+  MMEmoji.spam:
+    description: Spam the player! <Warning> Do not over use!
+    default: op
+  MMEmoji.bunny:
+    description: Makes a bunny in chat!
+    default: op
+  MMEmoji.fixtable:
+    description: Put the table back.
+    default: op
+  MMEmoji.throw:
+    description: Get out!
+    default: op
+  MMEmoji.erika:
+    description: Wut...
+    default: op
+  MMEmoji.donger:
+    description: DONGER!
+    default: op
+  MMEmoji.wannago:
+    description: You wanna go?
+    default: op
+  MMEmoji.snip:
+    description: Snip Snip!
+    default: op
+  MMEmoji.lilgimme:
+    description: A little gimme!
+    default: op
+  MMEmoji.kirk:
+    description: :D
+    default: op
