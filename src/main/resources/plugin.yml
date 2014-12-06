@@ -1,6 +1,6 @@
 name: MMEmoji
 main: com.minemee.MMEmoji.MMEmoji
-version: 1.0
+version: 1.1
 description: >
              Line art for Minecraft chat.
 commands:
@@ -108,6 +108,10 @@ commands:
     description: :D
     permission: MMEmoji.kirk
     permission-message: You don't have permission to use that.
+  ecast:
+    description: Broadcast one or two MMEmoji
+    permission: MMEmoji.ecast
+    permission-message: You don't have permission to use that.
 permissions:
   MMEmoji.*:
     description: Give access to all Emojies except personal and spam.
@@ -138,6 +142,7 @@ permissions:
       MMEmoji.snip: true
       MMEmoji.lilgimme: true
       MMEmoji.kirk: false
+      MMEmoji.ecast: false
   MMEmoji.tableflip:
     description: Do a table flip!
     default: true
@@ -215,4 +220,7 @@ permissions:
     default: true
   MMEmoji.kirk:
     description: :D
+    default: op
+  MMEmoji.ecast:
+    description: Broadcast one or two MMEmoji
     default: op

@@ -37,6 +37,7 @@ public class MMEmoji extends JavaPlugin {
 		getCommand("snip").setExecutor(new MMEmojiAscii());
 		getCommand("lilgimme").setExecutor(new MMEmojiAscii());
 		getCommand("kirk").setExecutor(new MMEmojiAscii());
+		getCommand("ecast").setExecutor(new MMEmojiAscii());
 	}
  
 	public void onDisable(){
