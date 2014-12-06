@@ -21,7 +21,7 @@ public class MMEmojiAscii implements CommandExecutor{
 	String gimme = "༼ つ ◕_◕ ༽つ";
 	String bighit = "█▬█ █ ▀█▀";
 	String visualizer = "▇ ▅ █ ▅ ▇ ▂ ▃ ▁ ▁ ▅ ▃ ▅ ▅ ▄ ▅ ▇";
-	// Bunny is more that one line.
+	// Bunny is more than one line.
 	String fixtable = "┬──┬ﾉ(° -°ﾉ)";
 	String throwP = "(ノಠ ∩ಠ)ノ彡( \\o°o)\\";
 	String erika = "༼☉ɷ⊙༽";
